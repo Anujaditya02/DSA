@@ -1,0 +1,15 @@
+//Input currency in rupees and output in USD.
+
+import java.util.*;
+
+class Main {
+	public static void main(String args[]) {
+		// Your code goes here
+
+		Scanner sc = new Scanner(System.in);
+
+		float rupee = sc.nextFloat();
+		
+		System.out.println("Dollar:" + Math.round((rupee*0.013) * 100.0) / 100.0); //Round of two decimal places.
+	}
+}
