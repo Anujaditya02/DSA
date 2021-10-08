@@ -1,0 +1,24 @@
+//Take 2 numbers as input and print the largest number.
+
+
+import java.util.*;
+
+class Main {
+	public static void main(String args[]) {
+		// Your code goes here
+
+		Scanner sc = new Scanner(System.in);
+
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+
+        int large = 0;
+		if(num1>num2){
+			large = num1;
+		}else{
+			large = num2;
+		}
+
+		System.out.println("Largest:" + " " + large);
+	}
+}
