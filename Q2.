@@ -1,0 +1,16 @@
+//Take name as input and print a greeting message for that name.
+
+
+import java.util.*;
+
+class Main {
+	public static void main(String args[]) {
+		// Your code goes here
+        Scanner sc = new Scanner(System.in);
+
+		String s = sc.next();
+
+		System.out.println("Hello" + " " + s);
+
+	}
+}
